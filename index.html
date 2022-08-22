@@ -1,22 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <title></title>
-  
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2113.5">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-    span.Apple-tab-span {white-space:pre}
-  </style>
-</head>
-<body>
-  
-  <style type='text/css'>
+<style type='text/css'>
 	.embeddedServiceHelpButton .helpButton .uiButton {
 		background-color: #222222;
 		font-family: "Klein Web", sans-serif;
@@ -30,12 +12,12 @@
 <script type='text/javascript'>
 	var initESW = function(gslbBaseURL) {
 		embedded_svc.settings.displayHelpButton = true; //Or false
-		embedded_svc.settings.language = 'it'; //For example, enter 'en' or 'en-US'
+		embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
 
-		//embedded_svc.settings.defaultMinimizedText = 'Contattaci'; //(Defaults to Chat with an Expert)
-		//embedded_svc.settings.disabledMinimizedText = 'Agenti offline'; //(Defaults to Agent Offline)
+		//embedded_svc.settings.defaultMinimizedText = '...'; //(Defaults to Chat with an Expert)
+		//embedded_svc.settings.disabledMinimizedText = '...'; //(Defaults to Agent Offline)
 
-		//embedded_svc.settings.loadingText = 'il caricamento'; //(Defaults to Loading)
+		//embedded_svc.settings.loadingText = ''; //(Defaults to Loading)
 		//embedded_svc.settings.storageDomain = 'yourdomain.com'; //(Sets the domain for your deployment so that visitors can navigate subdomains during a chat session)
 
 		// Settings for Chat
@@ -51,15 +33,15 @@
 		embedded_svc.settings.entryFeature = 'LiveAgent';
 
 		embedded_svc.init(
-			'https://pvheu--dev.my.salesforce.com',
-			'https://dev-pvheu--dev.cs128.force.com/liveAgentSetupFlow',
+			'https://pvheuropebv--test.my.salesforce.com',
+			'https://test-pvheuropebv--test.cs128.force.com/liveAgentSetupFlow',
 			gslbBaseURL,
-			'00D3N000000HoMz',
+			'00D3N0000008qhd',
 			'Embedded_Service_CK_Italy',
 			{
 				baseLiveAgentContentURL: 'https://c.la2-c1cs-fra.salesforceliveagent.com/content',
-				deploymentId: '5723N00000000Zp',
-				buttonId: '5733N00000000Yc',
+				deploymentId: '5723N0000004E1j',
+				buttonId: '5733N0000004Fj6',
 				baseLiveAgentURL: 'https://d.la2-c1cs-fra.salesforceliveagent.com/chat',
 				eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I3N0000004CgWUAU_182c4be90b7',
 				isOfflineSupportEnabled: false
@@ -69,7 +51,7 @@
 
 	if (!window.embedded_svc) {
 		var s = document.createElement('script');
-		s.setAttribute('src', 'https://pvheu--dev.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+		s.setAttribute('src', 'https://pvheuropebv--test.my.salesforce.com/embeddedservice/5.0/esw.min.js');
 		s.onload = function() {
 			initESW(null);
 		};
@@ -78,8 +60,3 @@
 		initESW('https://service.force.com');
 	}
 </script>
-
-</body>
-</html>
-
-  
